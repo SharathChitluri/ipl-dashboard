@@ -1,4 +1,4 @@
-.team-matches-route-container {
+.team-matches-container {
   display: flex;
   justify-content: center;
   min-height: 100vh;
@@ -36,14 +36,14 @@
   background: linear-gradient(to top, #1e293b, #4f5db0);
 }
 
-.team-matches-container {
+.responsive-container {
   width: 90%;
   max-width: 500px;
   margin-top: 48px;
 }
 
 @media screen and (min-width: 768px) {
-  .team-matches-container {
+  .responsive-container {
     margin-top: 96px;
     max-width: 1110px;
   }
